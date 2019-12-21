@@ -1,0 +1,52 @@
+header {
+  background-color: #eee;
+  display: block;
+  height: 100px;
+}
+
+header nav ul {
+  list-style: none;
+  float: right;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header nav ul li a {
+  display: block;
+  padding: 5px 3px;
+  margin: 5px 3px;
+  text-decoration: none;
+  color: #999;
+}
+
+header nav ul li a:hover {
+  border-bottom: 1px dotted #ffb069;
+  color: #ffb069;
+}
+
+adise {
+  width: 250px;
+  float: left;
+}
+
+adise nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+adise nav ul li a {
+  display: block;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #999;
+  width: 100px;
+}
+
+adise nav ul li a:hover {
+  border: 1px solid #ff0000;
+  color: #ff0000;
+}
+/*# sourceMappingURL=style.css.map */

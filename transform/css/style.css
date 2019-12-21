@@ -1,0 +1,19 @@
+<@charset "UTF-8">
+
+#wrapper, 
+#wrapper:after,
+#wrapper:before {
+	clear: both;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+

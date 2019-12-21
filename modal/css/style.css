@@ -1,0 +1,46 @@
+@charset  "UTF-8"
+
+#wrapper,
+#wrapper:after,
+#wrapper:before {
+	clear: both;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.wrapper {
+	width: 1000px;
+	height: 1000px;
+}
+
+.header {
+	width: 1000px;
+	height:1000px;
+}
+li {
+	list-style: none;
+	width: 400px;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+}
+
+li span {
+	position: absolute;
+	left:0;
+	top: 100%;
+	right: 0;
+	bottom: -100%;
+	background: rgba(0,0,0,0.8);
+	color: #fff;
+	text-align: center;
+	line-height: 200px;
+	transition: 0.5s;
+}
+
+li:hover span {
+	top: 0; bottom: 0;
+}
